@@ -18,7 +18,7 @@
     <form id="form1" runat="server">
         <div>
             <h1 style="color:darkred; text-align:center;">List Items Switching</h1>
-            <br />
+            
             <table class="auto-style2" border="0" align = "center">
                 <tr>
                     <td class="auto-style2">
@@ -32,7 +32,7 @@
                         <asp:Label ID="lblCount1" runat="server" Width="300px"></asp:Label>
                         <br />
                         <br />
-                        <asp:ListBox ID="ListBox2" runat="server" Height="300px" Width="300px" SelectionMode="Multiple">
+                        <asp:ListBox ID="ListBox2" runat="server" Height="300px" Width="300px" SelectionMode="Multiple" AppendDataBoundItems="True">
                             <asp:ListItem>Orange</asp:ListItem>
                             <asp:ListItem>Apple</asp:ListItem>
                             <asp:ListItem>Grape</asp:ListItem>
@@ -50,7 +50,7 @@
                     </td>
                     <td class="auto-style2">
                         <br />
-                        <asp:CheckBox ID="chSelected" runat="server" Text="Selected" Width="150px" />
+                        <asp:CheckBox ID="chSelected" runat="server" Text="Selected" Width="150px" align="center"/>
                         <br />
                         <br />
                         <br />
